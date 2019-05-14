@@ -1,0 +1,26 @@
+{
+    "name": "selvinortiz/importer",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "description": "csv data importer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shuvro",
+            "email": "shuvro@selvin.co"
+        }
+    ],
+    "extra": {
+        "name": "Importer",
+        "handle": "importer",
+        "class": "selvinortiz\\importer\\Importer"
+    },
+    "autoload": {
+        "psr-4": {
+            "selvinortiz\\importer\\": "src//"
+        }
+    },
+    "require": {
+        "box/spout": "^2.7"
+    }
+}
